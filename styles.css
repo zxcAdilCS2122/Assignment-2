@@ -1,0 +1,62 @@
+body {
+  background-image: url(https://infodota.com/wp-content/uploads/2015/11/dota_2_wallpaper_by_commander34-d6csdrt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h3, big, p, ul {
+  color: white;
+}
+
+hr {
+  border-style: none;
+  background-color: tomato;
+  height: 2px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.Logo, .Menu_style {
+  display: inline-block;
+}
+
+.Menu_style li {
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Menu_style a {
+  margin-right: 25px;
+  vertical-align: middle;
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+}
+
+.Menu_style a:hover {
+  color: #B22222;
+}
+
+.Logo {
+  vertical-align: middle;
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 2%;
+}
